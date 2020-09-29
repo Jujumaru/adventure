@@ -43,7 +43,7 @@ class PostsController < ApplicationController
     def update 
         respond_to do |format|
             if @post.update(post_params)
-                fromat.html {redirect_to @post, notice: 'Post successfully updated.'}
+                format.html {redirect_to @post, notice: 'Post successfully updated.'}
                 format.json { render :show, status: :ok, location: @post}
             else
                 format.html { render :edit}
@@ -71,6 +71,6 @@ class PostsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
         def post_params
-            params.fetch(:post, {})
+            params.fetch(:post, {}).permit(:title, :body)
         end
     end
