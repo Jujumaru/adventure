@@ -17,6 +17,11 @@
         <%= form.label :body %>
         <%= form.text_area :body %>
 
+        <p>
+            <%= form.label :photo %>
+            <%= form.file_field :photo %>
+        </p>
+
         <%= form.submit %>
         </div>
     <% end %>
