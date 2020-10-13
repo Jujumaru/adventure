@@ -10,9 +10,10 @@ class SessionsController < ApplicationController
       else
         flash.now[:danger] = 'This email/password combination does not exist'
         render 'new'
+      end
     end
-  end
+  end 
 
   def new
-  end
+  end 
 end

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Mukta';
+    src: url('/app/assets/fonts/Mukta-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* src: url('/app/assets/fonts/Mukta-ExtraBold.ttf') format('truetype'); */
+/* src: url('/app/assets/fonts/Mukta-ExtraLight.ttf') format('truetype'); */
+/* src: url('/app/assets/fonts/Mukta-Light.ttf') format('truetype'); */
+/* src: url('/app/assets/fonts/Mukta-Medium.ttf') format('truetype'); */
+/* src: url('/app/assets/fonts/Mukta-Regular.ttf') format('truetype'); */
+/* src: url('/app/assets/fonts/Mukta-SemiBold.ttf') format('truetype') */
