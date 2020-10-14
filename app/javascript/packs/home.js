@@ -1,5 +1,3 @@
-<%= javascript_pack_tag 'home' %>
-
 var c = document.getElementById('canvas'); 
 console.log(c);       
     ctx = c.getContext('2d'),

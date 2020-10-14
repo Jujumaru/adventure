@@ -9,6 +9,7 @@
     font-family: 'Mukta', sans-serif;
     font-size: 32pt;
     line-height: 36pt;
+    color: cyan;
 }
 
 .highlight {
@@ -22,6 +23,12 @@
 }
 
 #canvas {
-    background-color: brown;
+    position: absolute;
+    width: 100%;
+}
+
+
+#welcome {
+    z-index: 1;
     position: absolute;
 }
