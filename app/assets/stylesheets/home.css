@@ -1,3 +1,9 @@
+section:nth-of-type(1) {
+    height: calc(100vh + 53px);
+    padding: 0 10px;
+    position: relative;
+}
+
 .flex {
     align-items: center;
     display: flex;
@@ -9,7 +15,8 @@
     font-family: 'Mukta', sans-serif;
     font-size: 32pt;
     line-height: 36pt;
-    color: cyan;
+    color: whitesmoke;
+    position: relative;
 }
 
 .highlight {
@@ -24,11 +31,8 @@
 
 #canvas {
     position: absolute;
-    width: 100%;
-}
-
-
-#welcome {
-    z-index: 1;
-    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100vw;
 }
