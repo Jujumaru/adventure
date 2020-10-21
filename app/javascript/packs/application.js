@@ -18,3 +18,15 @@ require("@fortawesome/fontawesome-free");
 // const imagePath = (name) => images(name, true)
 
 //= require jquery2
+
+// External Imports
+import "bootstrap";
+
+// Internal Imports
+import { canvanimation } from '../components/section1.js'
+
+document.addEventListener('turbolinks:load', () => {
+    if (document.querySelector("#home")) {
+      setTimeout(canvanimation, 3000);
+    }
+  });
